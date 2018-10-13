@@ -14,6 +14,7 @@ public class article {
 		
 	}
 	public int getAid() {
+		System.out.println("");
 		return aid;
 	}
 	public void setAid(int aid) {
