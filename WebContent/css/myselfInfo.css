@@ -1,0 +1,108 @@
+#b{
+			background: #EFEFEF;
+}
+.navigation{
+			height: 500px;
+			float: left;
+			
+		}
+.content{
+	        width: 1000px;
+			margin: 100px auto;
+			overflow: hidden;
+			/*后加*/
+			padding: 0px;
+			background-color: white;
+	
+	
+	
+}
+	  .nav1{
+			list-style: none;
+            width: 180px;
+            padding: 0px;
+            margin: 0px;
+            text-align: center;
+        }
+        .nav1 .navli a{
+		   	height: 50px;
+		    display: block;
+		   	line-height: 50px;
+		    text-decoration: none;
+		  text-align: center;
+		    color: black;
+        }
+	    .nav1 .navli a:hover{
+            background-color: #000000;
+            color: white;
+        }
+      
+     
+       .right-aside{
+        	width:820px;
+        	margin-top: 30px;
+        	background: white;
+        	float:left;
+        	
+        }
+        .center{
+        	float: left;
+        	width: 100%;
+        	overflow: hidden;
+        }
+  .title{
+  	float: left;
+  	width: 100%;
+  	height: 20px;
+  	margin-left: 20px;
+  
+  	margin-bottom: 20px;
+   }
+   .img{
+   	float: left;
+  	margin-left: 25px;
+  	margin-top:80px;
+   }
+  
+   .img a {
+     margin-left: 15px;
+   	 text-decoration: none;
+   	 
+   	 float:left;
+   }
+   .img a:hover{
+   	 margin-left: 15px;
+   	text-decoration: none;
+   	 
+   }
+   .info{
+   width:67%;
+   float: left;
+   	margin-top:80px;
+  	margin-left: 30px;
+   }
+   .change{
+   	float: right;
+  margin-right: 50px;
+   }
+   .change a{
+   	text-decoration: none;
+   
+   }
+   .change a:hover{
+   	text-decoration: none;
+  
+   }
+   .edior{
+   	float:right;
+   	margin-right: 50px;
+   }
+   	#box {		
+				height: 250px;			
+				width: 500px;			
+				margin: 10px auto;			
+				background: #F0F8FF;			
+				padding: 50px;	
+				text-align: center;	
+			
+				}		

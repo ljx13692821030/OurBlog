@@ -1,0 +1,193 @@
+#b{
+			background: #EFEFEF;
+}
+.navigation{
+			height: 500px;
+			float: left;
+			
+		}
+.content{
+	        width: 1000px;
+			margin: 100px auto;
+			overflow: hidden;
+			/*后加*/
+			padding: 0px;
+			background-color: white;
+	
+	
+	
+}
+	  .nav{
+			list-style: none;
+            width: 180px;
+            padding: 0px;
+            margin: 0px;
+            text-align: center;
+        }
+        .nav .navli a{
+		   	height: 50px;
+		    display: block;
+		   	line-height: 30px;
+		    text-decoration: none;
+		  text-align: center;
+		    color: black;
+        }
+	    .nav .navli a:hover{
+            background-color: #000000;
+            color: white;
+        }
+      
+        .addsort{
+        	
+        	width: 100%;
+        	height:40px;
+        	float:left;
+        	overflow: hidden;
+        	
+        
+        	
+        }
+        .addsort label{
+        	margin-left: 20px;
+        	float:left;
+        	border-left: solid   3px #000000;
+        	padding-left: 20px;
+        }
+      
+        .right-aside{
+        	width:820px;
+        	margin-top: 30px;
+        	background: white;
+        	float:left;
+        	left:180px;
+        }
+        .addsort .add{
+        	float:right;
+            margin-right: 20px;
+        	width: 100px;
+        	height: 30px;
+        	border-radius: 5px;
+        	background: #FFFFFF;
+        	 
+        	border:1px #000000 groove;
+        }
+          #sort{
+        	
+        	float:left;
+        	margin-left: 48%;
+        	width: 150px;
+        	height: 30px;
+        
+        }
+        table{
+        	margin-left: 20px;
+        	
+        	text-align: center;
+        	font-family: "宋体";
+        	color: darkgray;
+        	
+        	
+        	
+        }
+        .first{
+        	height:40px;
+        	line-height: 40px;
+        	border-bottom:1px #E0E0E0 groove;
+        	font-size: 15px;
+        	
+        }
+        .first td{
+        	border-bottom:1px #E0E0E0 groove;
+        	
+        }
+        table a{
+        	text-decoration: none;
+        	
+        }
+        table a:hover{
+        	text-decoration: none;
+        	
+        }
+/* end .slideTwo */
+/* .slideThree */
+.slideThree {
+  width: 80px;
+  height: 26px;
+  background: #333;
+  margin: 20px auto;
+  position: relative;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.2);
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.2);
+}
+.slideThree:after {
+  content: 'OFF';
+  color: #000;
+  position: absolute;
+  right: 10px;
+  z-index: 0;
+  font: 12px/26px Arial, sans-serif;
+  font-weight: bold;
+  text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.15);
+}
+.slideThree:before {
+  content: 'ON';
+  color: #00bf00;
+  position: absolute;
+  left: 10px;
+  z-index: 0;
+  font: 12px/26px Arial, sans-serif;
+  font-weight: bold;
+}
+.slideThree label {
+  display: block;
+  width: 34px;
+  height: 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  z-index: 1;
+  background: #fcfff4;
+  background: -moz-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+  background: -webkit-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+  background: linear-gradient(to bottom, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+}
+.slideThree input[type=checkbox] {
+  visibility: hidden;
+}
+.slideThree input[type=checkbox]:checked + label {
+  left: 43px;
+}
+	.pageCon{
+			text-align: center;
+		}
+		.pageNav{
+			width:auto;
+			margin: 0px;
+		}
+		.pageNav .pageli .a{
+            display: block;
+            text-decoration: none;
+            margin-left: 15px;
+    		float: right;
+    		color: black;
+        }
+        .pageNav .pageli .a:hover{
+           color: #349EDF;
+        }
+        
+        
